@@ -12,7 +12,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import joblib
 import gzip
+import pdb # Python Debugger
 
+pdb.set_trace()
 
 # Load the dataset
 data = pd.read_csv('data/breast_cancer.csv')
